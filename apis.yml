@@ -1,8 +1,28 @@
 aid: peregrine
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peregrine.png
 name: Peregrine
-description: 'Peregrine is a company surfaced as a portfolio company of craft-ventures, menlo-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Peregrine Technologies is a public-safety operational-intelligence platform
+  that unifies fragmented data sources into actionable context for law
+  enforcement, corrections, fire-rescue, EMS, emergency management, and 911
+  agencies. Its full-stack platform pairs Peregrine Foundation for data
+  integration with Peregrine AI for analysis, surfacing connections across
+  otherwise disconnected datasets to speed decision-making and situational
+  awareness. FedRAMP High authorized and operating within AWS GovCloud, it is
+  used by agencies including the Atlanta, Miami, and Edmonton police departments
+  and Ada County Paramedics. The product is delivered as a login-gated
+  enterprise/government SaaS with no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/peregrine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure
+- Public Safety
+- Law Enforcement
+- Government
+- Data Integration
+- Artificial Intelligence
+- Situational Awareness
+- Emergency Response
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://peregrine.io
+- type: Login
+  url: https://app.peregrine.io/
+- type: SignUp
+  url: https://peregrine.io/book-a-demo
+- type: TermsOfService
+  url: https://peregrine.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://peregrine.io/privacy-policy
+- type: Support
+  url: https://peregrine.io/contact
+- type: GitHubOrganization
+  url: https://github.com/peregrine-io
+- type: TrustCenter
+  url: security/peregrine-trust-center.yml
+- type: Compliance
+  url: https://trustcenter.peregrine.io/
+- type: Security
+  url: https://peregrine.io/security
+- type: VulnerabilityDisclosure
+  url: security/peregrine-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/peregrine-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
